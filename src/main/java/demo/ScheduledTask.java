@@ -14,7 +14,7 @@ import java.util.Date;
 @EnableScheduling
 public class ScheduledTask {
 
-    @Scheduled(fixedDelay = 5000)
+    @Scheduled(fixedDelay = 50000)
     public void myTask(){
         System.out.println("task executed at: " + new Date().toString());
     }

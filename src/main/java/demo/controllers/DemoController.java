@@ -1,7 +1,10 @@
-package demo;
+package demo.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 
+import demo.Car;
+import demo.CarRepository;
+import demo.ErrorInfo;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
