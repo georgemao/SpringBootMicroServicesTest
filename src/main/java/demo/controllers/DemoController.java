@@ -44,8 +44,7 @@ public class DemoController{
 		System.out.println(repo.findByMake("Tesla"));
         System.out.println(repo.findByColor("Black"));
 		
-		repo.findAll().forEach(e -> System.out.println(e));
-		repo.findAll().forEach(System.out::println);
+		repo.findAll().forEach(e -> System.out.println(e)); // Or simply: System.out::println
 
 		return "OK";
 	}
